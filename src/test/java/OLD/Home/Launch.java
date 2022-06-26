@@ -1,15 +1,13 @@
-package Home;
-
-import Home.StoreData;
+package OLD.Home;
 
 public class Launch {
     public static void main(String[] args) {
-        Home.Launch launch = new Home.Launch();
+        Launch launch = new Launch();
         launch.run();
 
     }
     public void run(){
-        Home.StoreData storeData = new StoreData();
+        StoreData storeData = new StoreData();
 //        storeData.a = 1;
 //        storeData.b = 2;
         storeData.setA(1);
